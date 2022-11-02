@@ -1,0 +1,14 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Alex/APS/aps_/aps_.sim/sim_1/behav/xsim/glbl.v,1558569910,verilog,,,,glbl,,,,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sim_1/new/alu_riscv_tb.sv,1663983278,systemVerilog,,C:/Users/Alex/APS/aps_/aps_.srcs/sim_1/new/rf_tb.sv,,alu_riscv_tb,,,../../../../aps_.srcs/sources_1/new,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sim_1/new/im_tb.sv,1666274951,systemVerilog,,,,im_tb,,,../../../../aps_.srcs/sources_1/new,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sim_1/new/rf_tb.sv,1664094152,systemVerilog,,C:/Users/Alex/APS/aps_/aps_.srcs/sim_1/new/top_tb.sv,,rf_tb,,,../../../../aps_.srcs/sources_1/new,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sim_1/new/top_tb.sv,1666285803,systemVerilog,,C:/Users/Alex/APS/aps_/aps_.srcs/sim_1/new/im_tb.sv,,top_tb,,,../../../../aps_.srcs/sources_1/new,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/alu_riscv.sv,1665459318,systemVerilog,,C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/rf_riscv.sv,C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/defines.v,alu_riscv,,,../../../../aps_.srcs/sources_1/new,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/cpu_top.sv,1666286707,systemVerilog,,C:/Users/Alex/APS/aps_/aps_.srcs/sim_1/new/alu_riscv_tb.sv,C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/defines.v,cpu_top,,,../../../../aps_.srcs/sources_1/new,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/defines.v,1665461384,verilog,,,,,,,,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/instruction_memory.sv,1666274480,systemVerilog,,C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/cpu_top.sv,,instruction_memory,,,../../../../aps_.srcs/sources_1/new,,,,,
+C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/rf_riscv.sv,1666076600,systemVerilog,,C:/Users/Alex/APS/aps_/aps_.srcs/sources_1/new/instruction_memory.sv,,rf_riscv,,,../../../../aps_.srcs/sources_1/new,,,,,
