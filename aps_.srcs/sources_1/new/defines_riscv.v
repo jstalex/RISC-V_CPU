@@ -215,39 +215,20 @@
 `define LDST_HU 3'b101
 
 //----------------------------//
-//FOR MUX
 
-//operand a selection
-`define OP_A_RS1 2'b00
-`define OP_A_CURR_PC 2'b01
-`define OP_A_ZERO 2'b10
-
-//operand b selection
-`define OP_B_RS2 3'b000
-`define OP_B_IMM_I 3'b001
-`define OP_B_IMM_U 3'b010
-`define OP_B_IMM_S 3'b011
-`define OP_B_INCR 3'b100
-
-//writeback source selection
-`define WB_EX_RESULT 1'b0
-`define WB_LSU_DATA 1'b1
-
-
-
-// old
+// old, updated
 `define WORD_LEN 32
 `define ALU_OP_NUM 16
 
 `define INSTR_WIDTH 32
-`define INSTR_DEPTH 32
+`define INSTR_DEPTH 256
 
 `define CONST_LEN 8
 
 `define CONST 12:5
-`define WA 4:0
-`define RA1 22:18
-`define RA2 17:13
+`define WA 11:7
+`define RA1 19:15 // new
+`define RA2 24:20 // new
 `define ALUOp 27:23
 `define WS 29:28
 `define C 30
