@@ -9,7 +9,7 @@ module instruction_memory #(
 );
 
 logic [WIDTH-1:0]ROM[0:DEPTH-1];
-initial $readmemb("prog.txt", ROM, 0, DEPTH-1); 
+initial $readmemh("prog.txt", ROM, 0, DEPTH-1); 
 
 logic [`WORD_LEN - 1:0] shifted_adress;
 assign shifted_adress = A >> 2;
