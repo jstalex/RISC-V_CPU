@@ -3,9 +3,7 @@
 
 module cpu_top (
     input CLK100MHZ,
-    input [15:0] SW,
-    input rst,
-    output [15:0] LED
+    input rst
 );
 
 logic [`WORD_LEN-1:0] instruction;
