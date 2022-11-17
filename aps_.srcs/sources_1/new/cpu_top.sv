@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-`include "defines.v"
+`include "defines_riscv.v"
 
 module cpu_top (
     input CLK100MHZ,
