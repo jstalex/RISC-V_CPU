@@ -53,19 +53,21 @@ logic [`WORD_LEN-1:0] imm_S;
 assign imm_S = {{(`WORD_LEN - 12) {instruction[31]}}, instruction[`S_TYPE_IMM_11_5], instruction[`S_TYPE_IMM_4_0]};
 
 logic [`WORD_LEN-1:0] imm_J;
-assign imm_J = {{(`WORD_LEN - 20) {instruction[31]}},
+assign imm_J = {{(`WORD_LEN - 21) {instruction[31]}},
     instruction[`J_TYPE_IMM_20],
     instruction[`J_TYPE_IMM_19_12],
     instruction[`J_TYPE_IMM_11],
-    instruction[`J_TYPE_IMM_10_1]
+    instruction[`J_TYPE_IMM_10_1],
+    1'b0
 };
 
 logic [`WORD_LEN-1:0] imm_B;
-assign imm_B = {{(`WORD_LEN - 12) {instruction[31]}}, 
+assign imm_B = {{(`WORD_LEN - 13) {instruction[31]}}, 
     instruction[`B_TYPE_IMM_12],
     instruction[`B_TYPE_IMM_11],
     instruction[`B_TYPE_IMM_10_5],
-    instruction[`B_TYPE_IMM_4_1]
+    instruction[`B_TYPE_IMM_4_1],
+    1'b0
 };
 
 // alu 

@@ -201,7 +201,6 @@
 //I-type.4
 `define SYSTEM_OPCODE 5'b11_100
 
-//?
 `define MISC_MEM_OPCODE 5'b00_011
 
 //----------------------------//

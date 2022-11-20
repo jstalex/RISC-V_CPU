@@ -17,7 +17,7 @@ cpu_top dut(.CLK100MHZ(CLK), .rst(rst));
 
 initial begin
   rst <= 1;
-  #10;
+  #20;
   rst <= 0;
 end
 
