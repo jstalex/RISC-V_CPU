@@ -13,7 +13,7 @@ module data_memory#(
 
 logic [WIDTH-1:0] RAM [0:DEPTH-1];
 
-initial $readmemh("mem-init.txt", RAM, 0, DEPTH-1); 
+initial $readmemh("mem-init.txt", RAM); 
   
 assign RD = RAM[A[9:2]];  
   

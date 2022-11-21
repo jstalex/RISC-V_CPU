@@ -91,7 +91,7 @@ instruction_memory im(
 // assign extended_const = {{(`WORD_LEN - `CONST_LEN) {instruction[`CONST+(`CONST_LEN-1)]}},instruction[`CONST]};   
 // rf
 
-logic memory_rd; // read data form data memory
+logic [`WORD_LEN-1:0] memory_rd; // read data form data memory
 
 logic [`WORD_LEN-1:0] rd1;
 logic [`WORD_LEN-1:0] rd2;
