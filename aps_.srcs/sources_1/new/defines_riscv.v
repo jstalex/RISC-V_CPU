@@ -217,6 +217,9 @@
 
 // old, updated
 `define WORD_LEN 32
+
+`define BYTE_WIDTH 8
+
 `define ALU_OP_NUM 16
 
 `define INSTR_WIDTH 32

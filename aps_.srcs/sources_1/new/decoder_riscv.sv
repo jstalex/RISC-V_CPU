@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-`include "defines_riscv.v"
+// `include "defines_riscv.v"
 
 module decoder_riscv (
   input logic   [31:0]  fetched_instr_i,
@@ -14,7 +14,7 @@ module decoder_riscv (
   output  logic         illegal_instr_o,    // превратится в
   output  logic         branch_o,           // комбинационно устройство
   output  logic         jal_o,              // без памяти
-  output  logic         jalr_o              // 
+  output  logic         jalr_o           
 );
 
 always_comb begin
