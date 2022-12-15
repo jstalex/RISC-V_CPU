@@ -17,7 +17,7 @@ module miriscv_core(
 
 logic [`WORD_LEN-1:0] instruction;
 assign instruction = instr_rdata_i;
-logic en_pc_n;
+logic en_pc_n; // connect to stall in memory
 
 // main decoder connection 
 logic [1:0] ex_op_a_sel_o;
@@ -81,7 +81,6 @@ assign imm_B = {{(`WORD_LEN - 13) {instruction[31]}},
     1'b0
 };
 
-
 // alu 
 logic ALU_flag;
 logic [`WORD_LEN-1:0] ALU_res;
@@ -89,9 +88,7 @@ logic [`WORD_LEN-1:0] ALU_res;
 // parameter COUNTER_WIDTH = $clog2(`INSTR_DEPTH);
 logic [`WORD_LEN-1:0] PC;
 
-
 // rf & data memory
-
 logic [`WORD_LEN-1:0] memory_rd; // read data form data memory
 
 logic [`WORD_LEN-1:0] rd1;
